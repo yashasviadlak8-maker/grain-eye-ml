@@ -1,0 +1,16 @@
+Data file: data/grain_synthetic.csv
+Rows: 3000
+Train/Test: 2400/600
+
+              precision    recall  f1-score   support
+
+         Low       0.88      0.85      0.87       240
+    Moderate       0.79      0.81      0.80       244
+        High       0.83      0.85      0.84       116
+
+    accuracy                           0.83       600
+   macro avg       0.84      0.84      0.84       600
+weighted avg       0.84      0.83      0.84       600
+
+5-fold CV accuracy  Random Forest: 0.822
+5-fold CV accuracy  Decision Tree: 0.755
